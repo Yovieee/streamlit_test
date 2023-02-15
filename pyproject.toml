@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "streamlit-test"
+version = "0.1.0"
+description = ""
+authors = ["Yovieee <inimemangyonas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.13"
+streamlit = "^1.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
